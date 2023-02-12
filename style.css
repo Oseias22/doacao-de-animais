@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    justify-content: space-between;
+}
+
+h1 {
+    background-color: rgb(165, 126, 126);
+    text-align: center;
+
+}
+
+h3 {
+    background-color: rgb(235, 193, 193);
+    text-align: center;
+}
+
+img {
+    width: 140px;
+    padding: 7px;
+}
+
+.rodape {
+    color: #717171;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(141, 67, 67);
+    text-decoration: none;
+}
