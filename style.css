@@ -6,7 +6,6 @@ body {
 h1 {
     background-color: rgb(165, 126, 126);
     text-align: center;
-
 }
 
 h3 {
@@ -30,13 +29,26 @@ img {
     width: 90%;
 }
 
-nav {
+.menu {
     display: flex;
-    margin: auto;
+    gap: 1rem;
     justify-content: space-between;
 }
 
-a {
-    color: rgb(141, 67, 67);
+.menu>a {
     text-decoration: none;
+    color: rgb(141, 67, 67);
+}
+
+.menu>a::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    transition: all .4s;
+    border-bottom: 2px solid rgb(141, 67, 67);
+}
+
+.menu>a:hover::after {
+    width: 100%;
 }
